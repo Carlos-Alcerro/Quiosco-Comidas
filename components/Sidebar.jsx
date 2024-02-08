@@ -1,7 +1,7 @@
 "use client";
 import useQuiosco from "@/hook/useQuiosco";
 import Image from "next/image";
-import Categoria from "./categoria";
+import Categoria from "./Categoria";
 
 const Sidebar = () => {
   const { categorias } = useQuiosco();
